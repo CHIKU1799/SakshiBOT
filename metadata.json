@@ -1,0 +1,5 @@
+{
+  "name": "SakshiBOT",
+  "description": "An AI assistant and friend bot named Sakshi. Users can share secrets, gossip, and join anonymous discussions. Create groups, invite Sakshi, and chat in a safe, secure-feeling environment where no data is stored.",
+  "requestFramePermissions": []
+}

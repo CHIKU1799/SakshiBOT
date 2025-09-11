@@ -17,9 +17,9 @@ Sakshi-bot is a unique chat application designed to be more than just an assista
 
 Here's a sneak peek of what Sakshi-bot looks like.
 
-| Chat with Sakshi | Sidebar & Groups | Create a New Group |
-| :---: | :---: | :---: |
-| <img src="https://i.imgur.com/vHq4gY3.png" alt="A chat window showing a fun and engaging conversation with Sakshi-bot." width="300"/> | <img src="https://i.imgur.com/kP1oXkR.png" alt="The sidebar showing a list of chats, including a direct message with Sakshi, an anonymous room, and a user-created group." width="300"/> | <img src="https://i.imgur.com/yN7kE7f.png" alt="The 'Create a New Group' modal window, allowing users to name their new chat group." width="300"/> |
+| Private Chats with Sakshi | Anonymous Gossip & Creating Groups |
+| :---: | :---: |
+| <img src="./screenshots/sakshi-chat.png" alt="A chat window showing a fun and engaging conversation with Sakshi-bot." width="400"/> | <img src="./screenshots/sakshi-gossip-and-group.png" alt="The anonymous gossip room with the 'Create a New Group' modal open." width="400"/> |
 
 *(Note: These are representative images to showcase the UI.)*
 

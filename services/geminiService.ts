@@ -8,7 +8,7 @@ if (!process.env.API_KEY) {
   alert("Gemini API key is not configured. The AI features will not work.");
 }
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY! });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY! });
 const chatInstances = new Map<string, GeminiChat>();
 
 function getChatInstance(chatId: string, systemInstruction: string): GeminiChat {

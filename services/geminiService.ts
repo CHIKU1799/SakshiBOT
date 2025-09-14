@@ -2,7 +2,7 @@
 import { GoogleGenAI, Chat as GeminiChat } from "@google/genai";
 
 // Ensure the API key is available, but do not expose it in UI or request it.
-if (!process.env.API_KEY) {
+if (!import.meta.env.VITE_API_KEY) {
   // In a real app, you'd have better error handling.
   // For this context, we'll alert and disable the service.
   alert("Gemini API key is not configured. The AI features will not work.");
@@ -31,7 +31,7 @@ export const streamChatResponse = async (
   onChunk: (chunk: string) => void,
   onError: (errorMsg: string) => void
 ) => {
-  if (!process.env.API_KEY) {
+  if (!import.meta.env.VITE_API_KEY) {
     onError("AI service is not configured.");
     return;
   }

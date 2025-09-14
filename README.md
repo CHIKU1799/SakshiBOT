@@ -26,12 +26,11 @@ Here's a sneak peek of what Sakshi-bot looks like.
 ## 🛠️ Tech Stack
 
 - **Frontend:** React, TypeScript, Tailwind CSS
-- **AI Integration:** Google Gemini API (`@google/genai`) for conversational AI.
-
+- **AI Integration:** Google Gemini API 
 ## 🚀 Getting Started
 
 To run this application, you need a Google Gemini API key.
 
-1.  **API Key:** The application is configured to use the `process.env.API_KEY` environment variable. Ensure this is set up in your local environment where you are serving the files.
+1.  **API Key:** The application is configured to use the `import.meta.env.VITE_API_KEY` environment variable. Ensure this is set up in your local environment where you are serving the files.
 2.  **Open the App:** Simply open the `index.html` file in a modern web browser.
 3.  **Start Chatting:** The app is ready to go! Start a conversation with Sakshi, join the anonymous room, or create your own group.

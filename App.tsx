@@ -1,4 +1,4 @@
-
+import './index.css';
 import React, { useState, useCallback } from 'react';
 import Sidebar from './components/Sidebar';
 import ChatWindow from './components/ChatWindow';
